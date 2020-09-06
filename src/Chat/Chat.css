@@ -1,0 +1,39 @@
+.chatContainer {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    background: #172268;
+    padding: 0 16px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    font-size: 13px;
+    line-height: 15px;
+    margin: 0 12px;
+}
+
+#main {
+    display: flex;
+    width: 100%;
+    height: calc(100% - 60px);
+}

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c768514a-8f6a-41e7-8c68-25f7330fae00" name="Default Changelist" comment="" />
+    <list default="true" id="c768514a-8f6a-41e7-8c68-25f7330fae00" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sceyt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sceyt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat/Conversations/ConversationItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Conversations/ConversationItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat/Conversations/ConversationList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Conversations/ConversationList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat/CreateAvatar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/CreateAvatar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chat/Header.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599154845826</updated>
       <workItem from="1599154846938" duration="9788000" />
-      <workItem from="1599174871526" duration="47986000" />
+      <workItem from="1599174871526" duration="48579000" />
     </task>
     <servers />
   </component>
@@ -73,10 +83,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599159473649" />
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1599435233537">
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1599437023558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599435233537" />
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599437023558" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1599228600225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

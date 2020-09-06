@@ -1,0 +1,78 @@
+.loginSection {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 70px;
+}
+
+.logo {
+    margin: 32px 0px;
+}
+
+.logo > img {
+    display: block;
+    margin: 0 auto;
+}
+
+.loginBody {
+    margin: 0 auto;
+    background: white;
+    box-shadow: 20px 20px 20px rgba(116, 125, 142, 0.01), 20px 20px 30px rgba(116, 125, 142, 0.01), 0px 0px 30px rgba(116, 125, 142, 0.08);
+    border-radius: 8px;
+    width: 516px;
+    height: 322px;
+    padding: 44px 54px 50px;
+}
+
+.loginBody > h1 {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    text-align: center;
+    color: #1F233C;
+    margin-bottom: 13px;
+}
+
+.loginBody > p {
+    line-height: 19px;
+    text-align: center;
+    color: #383B51;
+    margin-bottom: 32px;
+}
+
+.username {
+    background: #FFFFFF;
+    border: 1px solid #A5A7B1;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    padding: 16px 14px;
+    margin-bottom: 36px;
+}
+
+.username::placeholder {
+    font-size: 14px;
+    line-height: 16px;
+    color: #9193A0;
+}
+
+.submit {
+    background: #4F6AFF;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    padding: 14px 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: none;
+    opacity: 1;
+}
+
+html .disabled {
+    opacity: 0.24;
+    cursor: not-allowed;
+}
