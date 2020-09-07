@@ -4,13 +4,13 @@ import {createUserName} from "../../utils/createUserame";
 import {useSelector} from "react-redux";
 import CreateAvatar from "../CreateAvatar";
 
-const ConversationItem = ({conversation, userID}) =>
+const ConversationItem = ({conversation, userID, selected}) =>
 {
     const users = useSelector(state => state.users);
     let {message, from} = conversation.last_message;
     let {avatar, username} = getInfo();
     return (
-        <li className={"conversationItem"}>
+        <li className={`conversationItem ${selected ? "selected" : ""}`} id={conversation.id}>
             <div className={"avatarContainer"}>
                 <CreateAvatar imgName={avatar} username={createUserName(username)}/>
             </div>

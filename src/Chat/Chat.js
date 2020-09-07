@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import ConversationList from "./Conversations/ConversationList";
 import Messages from "./Messages/Messages";
 import AddMessage from "./AddMessage/AddMessage";
@@ -8,19 +8,24 @@ import Header from "./Header";
 
 const Chat = ({userID}) =>
 {
+    const [selectedConversation, setSelectedConversation] = useState(null);
     return userID ? (
         <div className={"chatContainer"}>
             <Header userID={userID}/>
-            <section id={"main"}>
+            <main id={"main"}>
                 <section className={"convContainer"}>
                     <Search/>
-                    <ConversationList userID={userID}/>
+                    <ConversationList
+                        userID={userID}
+                        setSelectedConversation={setSelectedConversation}
+                        selectedConversationId={selectedConversation ? selectedConversation.id : null}
+                    />
                 </section>
                 <section className={"messageContainer"}>
-                    <Messages/>
+                    <Messages selectedConversation={selectedConversation}/>
                     <AddMessage/>
                 </section>
-            </section>
+            </main>
         </div>
     ) : null;
 };

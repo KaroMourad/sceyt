@@ -8,67 +8,67 @@ export const initData = [
         avatar: "",
     },
     {
-        id: uuid(),
+        id: uuid(),// 2
         username: "John Jan",
         avatar: "",
     },
     {
-        id: uuid(),
+        id: uuid(),// 3
         username: "Elizabeth Smith",
         avatar: "elizabeth.png",
     },
     {
-        id: uuid(),
+        id: uuid(),// 4
         username: "Johny Cash",
         avatar: "johny_cash.png",
     },
     {
-        id: uuid(),
+        id: uuid(),// 5
         username: "Lauren Ven",
         avatar: "lauren.png",
     },
     {
-        id: uuid(),
+        id: uuid(), // 6
         username: "Israel Adesanya",
         avatar: "",
     },
     {
-        id: uuid(),
+        id: uuid(), // 7
         username: "Tomomi Eagle",
         avatar: "tomomi.png",
     },
     {
-        id: uuid(),
+        id: uuid(), // 8
         username: "Lucie Morgan",
         avatar: "lucie.png",
     },
     {
-        id: uuid(),
+        id: uuid(), // 9
         username: "Ada Laine",
         avatar: "",
     },
     {
-        id: uuid(),
+        id: uuid(), // 10
         username: "Nata Hester",
         avatar: "",
     },
     {
-        id: uuid(),
+        id: uuid(), // 11
         username: "Ramon Beteman",
         avatar: "ramon.png",
     },
     {
-        id: uuid(),
+        id: uuid(), // 12
         username: "Jeshua Brown",
         avatar: "jeshua.png",
     },
     {
-        id: uuid(),
+        id: uuid(), // 13
         username: "Nala Hester",
         avatar: "",
     },
     {
-        id: uuid(),
+        id: uuid(), // 14
         username: "Harold Adam",
         avatar: "",
     },

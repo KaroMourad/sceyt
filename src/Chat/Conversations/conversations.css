@@ -2,7 +2,6 @@
     width: 280px;
     height: 100%;
     background: #FFFFFF;
-    border: 1px solid #DFE0EB;
 }
 
 .searchContainer {
@@ -58,12 +57,21 @@
     overflow-y: auto;
 }
 
+.selected {
+    box-shadow: inset 4px 0px #4F6AFF;
+    background: #EFF1FF;
+}
+
 .conversationItem {
     height: 62px;
     width: 100%;
     padding: 7px 16px;
     display: flex;
     align-items: center;
+}
+
+.conversationItem:hover {
+    background: #EFF1FF;
 }
 
 .avatarContainer {

@@ -1,5 +1,6 @@
 import {conversationsActions} from "../actions/conversationsActions";
 import {initData} from "./usersReducer";
+import {v1 as uuid} from "uuid"
 
 const initialState = [
     {
@@ -11,6 +12,7 @@ const initialState = [
             message: "341.jpg"
         },
         group: {
+            id: uuid(),
             name: "BamBam News",
             avatar: "bambam.png",
             users: [initData[0].id]
@@ -25,6 +27,7 @@ const initialState = [
             message: "Hey, i just want to do something"
         },
         group: {
+            id: uuid(),
             name: "Annual Meeting",
             avatar: "annual.png",
             users: [initData[0].id, initData[1].id]

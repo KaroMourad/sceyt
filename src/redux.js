@@ -4,12 +4,12 @@ import {Provider} from 'react-redux';
 import {devToolsEnhancer} from 'redux-devtools-extension';
 import {users} from "./redux/reducers/usersReducer";
 import {conversations} from "./redux/reducers/conversationsReducer";
-// import {messagesReducer} from "./redux/reducers/messagesReducer";
+import {messagesReducer} from "./redux/reducers/messagesReducer";
 
 const store = createStore(combineReducers({
     conversations,
     users,
-    // messages: messagesReducer
+    messages: messagesReducer
 }), devToolsEnhancer());
 
 
